@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-public class Bai6 {
+public class Equations {
     public static void main(String[] args) {
         String options[] ={"Phương trình bậc nhất một ẩn","Phương trình bậc hai một ẩn"," Hệ phương trình bậc nhất hai ẩn"};
         int option = JOptionPane.showOptionDialog(null,"Chọn phương trình bạn muốn giải : ","select option",JOptionPane.DEFAULT_OPTION,JOptionPane.INFORMATION_MESSAGE,null,options,options[0]);
